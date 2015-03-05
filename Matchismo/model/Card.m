@@ -10,9 +10,22 @@
 
 @interface Card()
 //Note: private declarations can go here.
+@property (strong,nonatomic) NSMutableArray *history;
+
 @end
 
 @implementation Card //Note: super class is not specified here.
+
+-(NSMutableArray *)history{
+    if(!_history){
+        _history = [[NSMutableArray alloc]init];
+    }
+    return _history;
+}
+
+-(NSArray *)matchHistory{
+    return self.history;
+}
 
 -(int)match:(NSArray *)otherCards{
     int score = 0;

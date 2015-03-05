@@ -19,4 +19,6 @@
 
 -(int)match:(NSArray *)otherCards;
 
+-(NSArray *)matchHistory;
+
 @end
