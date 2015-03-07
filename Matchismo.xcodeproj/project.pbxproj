@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4E65E411AA6D52800E2B787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E401AA6D52800E2B787 /* main.m */; };
 		E4E65E441AA6D52800E2B787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E431AA6D52800E2B787 /* AppDelegate.m */; };
-		E4E65E471AA6D52800E2B787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E461AA6D52800E2B787 /* ViewController.m */; };
+		E4E65E471AA6D52800E2B787 /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E461AA6D52800E2B787 /* PlayingCardViewController.m */; };
 		E4E65E4A1AA6D52800E2B787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E65E481AA6D52800E2B787 /* Main.storyboard */; };
 		E4E65E4C1AA6D52800E2B787 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E65E4B1AA6D52800E2B787 /* Images.xcassets */; };
 		E4E65E4F1AA6D52800E2B787 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E65E4D1AA6D52800E2B787 /* LaunchScreen.xib */; };
@@ -19,6 +19,7 @@
 		E4E65E6D1AA6F4C600E2B787 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E6C1AA6F4C600E2B787 /* Deck.m */; };
 		E4E65E701AA6F98F00E2B787 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E6F1AA6F98F00E2B787 /* PlayingCardDeck.m */; };
 		E4E65E991AA7F12E00E2B787 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E981AA7F12E00E2B787 /* CardMatchingGame.m */; };
+		E4E65E9C1AA9BDF900E2B787 /* PlayingSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,8 @@
 		E4E65E401AA6D52800E2B787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4E65E421AA6D52800E2B787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4E65E431AA6D52800E2B787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4E65E451AA6D52800E2B787 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4E65E461AA6D52800E2B787 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4E65E451AA6D52800E2B787 /* PlayingCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardViewController.h; sourceTree = "<group>"; };
+		E4E65E461AA6D52800E2B787 /* PlayingCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardViewController.m; sourceTree = "<group>"; };
 		E4E65E491AA6D52800E2B787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4E65E4B1AA6D52800E2B787 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4E65E4E1AA6D52800E2B787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -55,6 +56,8 @@
 		E4E65E6F1AA6F98F00E2B787 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		E4E65E971AA7F12E00E2B787 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = model/CardMatchingGame.h; sourceTree = "<group>"; };
 		E4E65E981AA7F12E00E2B787 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = model/CardMatchingGame.m; sourceTree = "<group>"; };
+		E4E65E9A1AA9BDF900E2B787 /* PlayingSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingSetViewController.h; sourceTree = "<group>"; };
+		E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingSetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +99,10 @@
 		E4E65E3D1AA6D52800E2B787 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				E4E65E451AA6D52800E2B787 /* ViewController.h */,
-				E4E65E461AA6D52800E2B787 /* ViewController.m */,
+				E4E65E451AA6D52800E2B787 /* PlayingCardViewController.h */,
+				E4E65E9A1AA9BDF900E2B787 /* PlayingSetViewController.h */,
+				E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */,
+				E4E65E461AA6D52800E2B787 /* PlayingCardViewController.m */,
 				E4E65E481AA6D52800E2B787 /* Main.storyboard */,
 				E4E65E4B1AA6D52800E2B787 /* Images.xcassets */,
 				E4E65E4D1AA6D52800E2B787 /* LaunchScreen.xib */,
@@ -252,8 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E65E471AA6D52800E2B787 /* ViewController.m in Sources */,
+				E4E65E471AA6D52800E2B787 /* PlayingCardViewController.m in Sources */,
 				E4E65E441AA6D52800E2B787 /* AppDelegate.m in Sources */,
+				E4E65E9C1AA9BDF900E2B787 /* PlayingSetViewController.m in Sources */,
 				E4E65E411AA6D52800E2B787 /* main.m in Sources */,
 				E4E65E6A1AA6EDB800E2B787 /* PlayingCard.m in Sources */,
 				E4E65E991AA7F12E00E2B787 /* CardMatchingGame.m in Sources */,
@@ -450,6 +456,7 @@
 				E4E65E601AA6D52800E2B787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4E65E611AA6D52800E2B787 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				E4E65E631AA6D52800E2B787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
