@@ -7,6 +7,7 @@
 //
 
 #import "PlayingSetViewController.h"
+#import "TextStatsViewController.h"
 
 @interface PlayingSetViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *headerline;
@@ -70,14 +71,19 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"textstats"]) {
+        if ([segue.destinationViewController isKindOfClass:[TextStatsViewController class]]) {
+            TextStatsViewController *tvc = (TextStatsViewController *)segue.destinationViewController;
+            tvc.textToAnalyze = self.body.textStorage;
+        }
+    }
 }
-*/
+
 
 @end

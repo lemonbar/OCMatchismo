@@ -7,7 +7,7 @@
 //
 
 #import "PlayingCardViewController.h"
-#import "PlayingCardDeck.h"
+//#import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface PlayingCardViewController ()
@@ -62,7 +62,7 @@
 }
 
 -(Deck *)createDeck{
-    return [[PlayingCardDeck alloc]init];
+    return nil;
 }
 - (IBAction)redealButton:(UIButton *)sender {
     //enable model segemented controller.

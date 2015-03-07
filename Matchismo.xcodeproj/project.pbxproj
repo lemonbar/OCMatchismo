@@ -20,6 +20,8 @@
 		E4E65E701AA6F98F00E2B787 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E6F1AA6F98F00E2B787 /* PlayingCardDeck.m */; };
 		E4E65E991AA7F12E00E2B787 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E981AA7F12E00E2B787 /* CardMatchingGame.m */; };
 		E4E65E9C1AA9BDF900E2B787 /* PlayingSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */; };
+		E4E65E9F1AAADFCE00E2B787 /* PlayingMatchCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E9E1AAADFCE00E2B787 /* PlayingMatchCardViewController.m */; };
+		E4E65EA21AAAFF9F00E2B787 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65EA11AAAFF9F00E2B787 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		E4E65E981AA7F12E00E2B787 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = model/CardMatchingGame.m; sourceTree = "<group>"; };
 		E4E65E9A1AA9BDF900E2B787 /* PlayingSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingSetViewController.h; sourceTree = "<group>"; };
 		E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingSetViewController.m; sourceTree = "<group>"; };
+		E4E65E9D1AAADFCE00E2B787 /* PlayingMatchCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingMatchCardViewController.h; sourceTree = "<group>"; };
+		E4E65E9E1AAADFCE00E2B787 /* PlayingMatchCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingMatchCardViewController.m; sourceTree = "<group>"; };
+		E4E65EA01AAAFF9F00E2B787 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		E4E65EA11AAAFF9F00E2B787 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				E4E65E451AA6D52800E2B787 /* PlayingCardViewController.h */,
+				E4E65E461AA6D52800E2B787 /* PlayingCardViewController.m */,
+				E4E65E9D1AAADFCE00E2B787 /* PlayingMatchCardViewController.h */,
+				E4E65E9E1AAADFCE00E2B787 /* PlayingMatchCardViewController.m */,
 				E4E65E9A1AA9BDF900E2B787 /* PlayingSetViewController.h */,
 				E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */,
-				E4E65E461AA6D52800E2B787 /* PlayingCardViewController.m */,
+				E4E65EA01AAAFF9F00E2B787 /* TextStatsViewController.h */,
+				E4E65EA11AAAFF9F00E2B787 /* TextStatsViewController.m */,
 				E4E65E481AA6D52800E2B787 /* Main.storyboard */,
 				E4E65E4B1AA6D52800E2B787 /* Images.xcassets */,
 				E4E65E4D1AA6D52800E2B787 /* LaunchScreen.xib */,
@@ -259,7 +269,9 @@
 			files = (
 				E4E65E471AA6D52800E2B787 /* PlayingCardViewController.m in Sources */,
 				E4E65E441AA6D52800E2B787 /* AppDelegate.m in Sources */,
+				E4E65E9F1AAADFCE00E2B787 /* PlayingMatchCardViewController.m in Sources */,
 				E4E65E9C1AA9BDF900E2B787 /* PlayingSetViewController.m in Sources */,
+				E4E65EA21AAAFF9F00E2B787 /* TextStatsViewController.m in Sources */,
 				E4E65E411AA6D52800E2B787 /* main.m in Sources */,
 				E4E65E6A1AA6EDB800E2B787 /* PlayingCard.m in Sources */,
 				E4E65E991AA7F12E00E2B787 /* CardMatchingGame.m in Sources */,
