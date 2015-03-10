@@ -16,7 +16,7 @@
                                 <rect key="frame" x="16" y="73" width="288" height="289"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -598,6 +598,31 @@
             </objects>
             <point key="canvasLocation" x="710" y="150"/>
         </scene>
+        <!--DrawOneCard-->
+        <scene sceneID="99B-4s-W0p">
+            <objects>
+                <viewController id="MVz-K2-qRa" customClass="DrawOneCardViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WUX-cL-uj4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="1zD-8N-YCC" customClass="CardView">
+                                <rect key="frame" x="82" y="154" width="157" height="259"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="DrawOneCard" id="YVP-Ic-cxy"/>
+                    <connections>
+                        <outlet property="playingCardView" destination="1zD-8N-YCC" id="BBP-rO-rhg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7I7-fw-3P4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="-472"/>
+        </scene>
         <!--CardTabBarController-->
         <scene sceneID="ZSw-Ez-8Y6">
             <objects>
@@ -611,6 +636,7 @@
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="Q6i-f1-u6k"/>
                         <segue destination="mYs-cg-ibI" kind="relationship" relationship="viewControllers" id="BQc-0c-iCQ"/>
+                        <segue destination="MVz-K2-qRa" kind="relationship" relationship="viewControllers" id="VEw-Xd-8bq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gtx-ik-pj9" userLabel="First Responder" sceneMemberID="firstResponder"/>

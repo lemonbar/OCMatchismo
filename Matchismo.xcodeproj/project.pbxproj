@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43DB0911AAED70500782A87 /* DrawOneCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43DB0901AAED70500782A87 /* DrawOneCardViewController.m */; };
+		E43DB0941AAED8B500782A87 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E43DB0931AAED8B500782A87 /* CardView.m */; };
 		E4E65E411AA6D52800E2B787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E401AA6D52800E2B787 /* main.m */; };
 		E4E65E441AA6D52800E2B787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E431AA6D52800E2B787 /* AppDelegate.m */; };
 		E4E65E471AA6D52800E2B787 /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E65E461AA6D52800E2B787 /* PlayingCardViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E43DB08F1AAED70500782A87 /* DrawOneCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawOneCardViewController.h; sourceTree = "<group>"; };
+		E43DB0901AAED70500782A87 /* DrawOneCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawOneCardViewController.m; sourceTree = "<group>"; };
+		E43DB0921AAED8B500782A87 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardView.h; path = model/CardView.h; sourceTree = "<group>"; };
+		E43DB0931AAED8B500782A87 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardView.m; path = model/CardView.m; sourceTree = "<group>"; };
 		E4E65E3B1AA6D52800E2B787 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E65E3F1AA6D52800E2B787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E65E401AA6D52800E2B787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 				E4E65E9E1AAADFCE00E2B787 /* PlayingMatchCardViewController.m */,
 				E4E65E9A1AA9BDF900E2B787 /* PlayingSetViewController.h */,
 				E4E65E9B1AA9BDF900E2B787 /* PlayingSetViewController.m */,
+				E43DB08F1AAED70500782A87 /* DrawOneCardViewController.h */,
+				E43DB0901AAED70500782A87 /* DrawOneCardViewController.m */,
 				E4E65EA01AAAFF9F00E2B787 /* TextStatsViewController.h */,
 				E4E65EA11AAAFF9F00E2B787 /* TextStatsViewController.m */,
 				E4E65E481AA6D52800E2B787 /* Main.storyboard */,
@@ -163,6 +171,8 @@
 				E4E65E6F1AA6F98F00E2B787 /* PlayingCardDeck.m */,
 				E4E65E971AA7F12E00E2B787 /* CardMatchingGame.h */,
 				E4E65E981AA7F12E00E2B787 /* CardMatchingGame.m */,
+				E43DB0921AAED8B500782A87 /* CardView.h */,
+				E43DB0931AAED8B500782A87 /* CardView.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,7 +280,9 @@
 				E4E65E471AA6D52800E2B787 /* PlayingCardViewController.m in Sources */,
 				E4E65E441AA6D52800E2B787 /* AppDelegate.m in Sources */,
 				E4E65E9F1AAADFCE00E2B787 /* PlayingMatchCardViewController.m in Sources */,
+				E43DB0911AAED70500782A87 /* DrawOneCardViewController.m in Sources */,
 				E4E65E9C1AA9BDF900E2B787 /* PlayingSetViewController.m in Sources */,
+				E43DB0941AAED8B500782A87 /* CardView.m in Sources */,
 				E4E65EA21AAAFF9F00E2B787 /* TextStatsViewController.m in Sources */,
 				E4E65E411AA6D52800E2B787 /* main.m in Sources */,
 				E4E65E6A1AA6EDB800E2B787 /* PlayingCard.m in Sources */,
